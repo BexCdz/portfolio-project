@@ -112,7 +112,7 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 42pxpx;
+  line-height: 48px;
 }
 
 @media (max-width: 900px) {
