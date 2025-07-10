@@ -37,28 +37,71 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
-    <title>Becky Pearce</title>
+    <meta
+      name="description"
+      content="Becky's work - Becky is a front-end developer based in Europe "
+    />
+    <title>Becky's Work</title>
   </head>
   <body>
+    <div class="container"></div>
+    <div>
+      <nav class="d-flex justify-content-between me-3">
+        <a href="/" title="Homepage">
+          <img
+            src="Images/logo.png"
+            class="logo d-none d-md-block ms-3"
+            alt="Becky's logo"
+        /></a>
+        <a href="/"
+          ><img
+            src="Images/logo.small.png"
+            class="logo d-block d-md-none"
+            alt="Becky's logo"
+        /></a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About me page">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Becky's work page">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Becky">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
 
         <div class="row">
           <div class="col-md-6 mb-4">
-            <img src="images/AItravel.png" alt="" class="img-fluid rounded" />
+            <img
+              src="images/AItravel.png"
+              alt="AI project preview"
+              class="img-fluid rounded"
+            />
             <h3 class="text-center">AI Generator Project</h3>
             <p class="text-center text-muted">Built with HTML, CSS & AI API</p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="Images/WeatherApp.png" alt="" class="img-fluid rounded" />
+            <img
+              src="Images/WeatherApp.png"
+              alt="Weather app preview"
+              class="img-fluid rounded"
+            />
             <h3 class="text-center">Weather Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS, JavaScript & OpenWeather API
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="Images/WorldClock.png" alt="" class="img-fluid rounded" />
+            <img
+              src="Images/WorldClock.png"
+              alt="World clock preview"
+              class="img-fluid rounded"
+            />
             <h3 class="text-center">World Clock Project</h3>
             <p class="text-center text-muted">
               Built HTML, CSS, JavaScript & time zone API / Date object
@@ -67,5 +110,54 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Becky"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:rspearce92@gmail.com"
+          class="email-link"
+          title="Email Becky"
+          >rspearce92@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/beckypearce_92/?hl=en"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a
+          href="https://github.com/BexCdz"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        🚀 This project was coded by Becky Pearce and it is
+        <a href="https://github.com/BexCdz/portfolio-project" target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

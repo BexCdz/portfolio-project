@@ -37,9 +37,37 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
-    <title>Becky Pearce</title>
+    <meta name="description" content="Contact Becky" />
+    <title>Contact Becky - Becky Pearce</title>
   </head>
   <body>
+    <div class="container"></div>
+    <div>
+      <nav class="d-flex justify-content-between me-3">
+        <a href="/" title="Homepage">
+          <img
+            src="Images/logo.png"
+            class="logo d-none d-md-block ms-3"
+            alt="Becky's logo"
+        /></a>
+        <a href="/"
+          ><img
+            src="Images/logo.small.png"
+            class="logo d-block d-md-none"
+            alt="Becky's logo"
+        /></a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li><a href="/about.html" title="About me page">About</a></li>
+          <li><a href="/work.html" title="Becky's work page">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Becky">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -48,8 +76,63 @@
         <h3>Phone</h3>
         <p>711030502</p>
         <h3>Instagram</h3>
-        <p><a href="#" target="_blank">Beckypearce92</a></p>
+        <p>
+          <a
+            href="https://www.instagram.com/beckypearce_92/?hl=en"
+            target="_blank"
+            >Beckypearce92</a
+          >
+        </p>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Becky"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:rspearce92@gmail.com"
+          class="email-link"
+          title="Email Becky"
+          >rspearce92@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/beckypearce_92/?hl=en"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a
+          href="https://github.com/BexCdz"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        🚀 This project was coded by Becky Pearce and it is
+        <a href="https://github.com/BexCdz/portfolio-project" target="_blank"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

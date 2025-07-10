@@ -37,29 +37,35 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
-
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Becky is a front-end developer based in Europe "
+    />
+    <title>Front-end developer - Becky Pearce</title>
   </head>
   <body>
     <div class="container"></div>
     <div>
       <nav class="d-flex justify-content-between me-3">
-        <a href="/">
-          <img src="Images/logo.png" class="logo d-none d-md-block ms-3" alt=""
+        <a href="/" title="Homepage">
+          <img
+            src="Images/logo.png"
+            class="logo d-none d-md-block ms-3"
+            alt="Becky's logo"
         /></a>
         <a href="/"
           ><img
             src="Images/logo.small.png"
             class="logo d-block d-md-none"
-            alt=""
+            alt="Becky's logo"
         /></a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/about.html" title="About me page">About</a></li>
+          <li><a href="/work.html" title="Becky's work page">Work</a></li>
+          <li><a href="/contact.html" title="Contact Becky">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -67,13 +73,21 @@
       <p>👋Hi I'm</p>
       <h1>Rebecca Sarah Pearce</h1>
       <h2 class="mb-5">Front-end developer based in Europe</h2>
-      <div><a href="#" class="btn btn-branding">Contact me</a></div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
+      </div>
     </div>
     <p class="text-center m-5">Take a look at some of my projects</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block mt-5 pt-5">
-          <img src="Images/AItravel.png" class="img-fluid rounded" alt="" />
+          <img
+            src="Images/AItravel.png"
+            class="img-fluid rounded"
+            alt="AI Travel project"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -87,7 +101,7 @@
               clean design with helpful functionality — perfect for travelers
               looking for inspiration on the go. Tech used: HTML, CSS & AI API
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -104,11 +118,15 @@
               visually intuitive. Tech used: HTML, CSS, JavaScript & OpenWeather
               API
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block mt-5">
-          <img src="Images/WeatherApp.png" class="img-fluid rounded" alt="" />
+          <img
+            src="Images/WeatherApp.png"
+            class="img-fluid rounded"
+            alt="Weather project"
+          />
         </div>
       </div>
       <div class="row">
@@ -116,7 +134,7 @@
           <img
             src="Images/WorldClock.png"
             class="img-fluid rounded pt-5"
-            alt=""
+            alt="World clock project"
           />
         </div>
         <div class="col">
@@ -131,7 +149,7 @@
               exercise in data handling and user-friendly interface design. Tech
               used: HTML, CSS, JavaScript & time zone API / Date object
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -140,27 +158,49 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Becky"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:rspearce92@gmail.com" class="email-link"
+          <a
+            href="mailto:rspearce92@gmail.com"
+            class="email-link"
+            title="Email Becky"
             >rspearce92@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/beckypearce_92/?hl=en">
+          <a
+            href="https://www.instagram.com/beckypearce_92/?hl=en"
+            target="_blank"
+            title="Instagram Profile"
+          >
             <i class="fab fa-instagram"></i>
           </a>
 
-          <a href="https://github.com/BexCdz" target="_blank">
+          <a
+            href="https://github.com/BexCdz"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          🚀 This project was coded by Becky Pearce and it is
+          <a href="https://github.com/BexCdz/portfolio-project" target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
